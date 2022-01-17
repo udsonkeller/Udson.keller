@@ -7,7 +7,7 @@ namespace Cliente.Api.Classe
 {
     public class DadosBanco
     {
-       public List<string> dadosbanco()
+       public List<string> ListarPratos()
         {
             var nomepratos = new List<string>();
             nomepratos.Add("Arroz com Galinha");

@@ -33,8 +33,8 @@ namespace Cliente.Api.Controllers
         public List<string> NomePratos(string filtro)
         {
             var classe = new DadosBanco();
-
-            var retornabanco = classe.dadosbanco();
+            
+            var retornabanco = classe.ListarPratos();
 
             if (filtro == null)
             {
@@ -67,7 +67,7 @@ namespace Cliente.Api.Controllers
 
 
         [HttpGet("ListarCliente")]
-
+                      
         public List<Clientes> ListarCliente()
         {
             var listaCliente = new List<Clientes>();

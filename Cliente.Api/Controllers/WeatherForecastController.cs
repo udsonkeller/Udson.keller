@@ -53,7 +53,7 @@ namespace Cliente.Api.Controllers
         {
             var classe = new DadosBanco();
 
-            var retornabanco = classe.dadosbanco();
+            var retornabanco = classe.ListarPratos();
 
             if (filtro == null)
             {
